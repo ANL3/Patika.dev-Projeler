@@ -1,7 +1,7 @@
 # Patika.dev-Projeler
 Veri Yapıları ve Algoritmalar - Proje 1
 Selection Sort
-Aşamalar (22 27 16  2 18  6)
+Aşamalar (22 27 16  2 18  6)//
  2 27 16 22 18  6
  2  6 16 22 18 27
  2  6 16 22 18 27
