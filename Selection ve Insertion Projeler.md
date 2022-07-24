@@ -51,8 +51,32 @@
  
  1 + 1 + ... + 1 = n ---> O(n)
  
- ### Time Complexity (18 için)
+### Time Complexity (18 için)
  
  Aradığımız sayı ortada olduğu için Avarage Case kapsamına girer.
+ 
+## Selection Sort
+
+### İlk 4 Aşama (7 3 5 8 2 9 4 15 6)
+
+ 2 3 5 8 7 9 4 15  6
+ 
+ 2 3 5 8 7 9 4 15  6
+ 
+ 2 3 4 8 7 9 5 15  6
+ 
+ 2 3 4 5 7 9 8 15  6
+ 
+## Insertion Sort
+
+### İlk 4 Aşama (7 3 5 8 2 9 4 15 6)
+
+3 7 5 8 2 9 4 15 6
+
+3 5 7 8 2 9 4 15 6
+
+3 5 7 8 2 9 4 15 6
+
+2 3 5 7 8 9 4 15 6
  
  www.patika.dev
