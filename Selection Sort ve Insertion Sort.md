@@ -79,4 +79,4 @@
 
 2 3 5 7 8 9 4 15 6
  
- www.patika.dev
+www.patika.dev
