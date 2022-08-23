@@ -39,7 +39,7 @@ output: [1,'a','cat',2,3,'dog',4,5]
 
 """
 
-## Proje 1
+## Proje 2
 
 ### Problem
 
@@ -53,7 +53,16 @@ output: [[[7, 6, 5], [4, 3], [2, 1]]
 
 """Python
 
+def Reverse_List_Needed(line): 
+    line.reverse()                           #listenin elemanlarını ters çevirdim
+    for i in range(len(line)):               
+        if type(line[i])==list:              #Eğer liste içinde liste varsa onu da ters çevirdim değilse dokunmadım devam ettim
+            line[i].reverse()
+        else:
+            continue
+    return line
 
+print(Reverse_List_Needed(eval(input())))    #En önemlisi listeyi direk inputta görmesi için eval komutunu kullandım
 
 """
 
