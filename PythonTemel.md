@@ -5,6 +5,7 @@
 
 ### Aşamalar
 
+
 def Flatten_Everything(line):
     
     l="0123456789"                              #ileride sayısal verileri int şeklinde döndürmek için tanımladım
